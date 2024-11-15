@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: sans-serif; */
+    box-sizing: border-box;
+}
+/* Top Bar Start from Here */
+#heading {
+    height: 45px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#heading .text {
+    font-size: 16px; 
+}
+#heading .text small {
+    margin: 25px;
+}
+/* Top Bar Ends Here */
+/* Header Starts from Here */
+#navhead{
+    display: flex;
+    position: absolute;
+}
+#navhead .logo {
+    color:  #06A3DA;
+    font-size: 25px;
+    margin: 5px 40% 5px 50px;
+    letter-spacing: 2px;
+}
+#navhead .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+#navhead .navbar a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    /* position: relative; */
+}
+/* #navhead .navbar a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    border-top: 2px solid aqua;
+    transition: 0.4s linear;
+}
+#navhead .navbar a:hover:before {
+    width: 100%;
+} */
+
+#navhead .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navhead .register a{
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 30px;
+    height: 40px;
+    width: 125px;
+    border-radius: 20px;
+    padding-left: 10px; 
+    /* padding-top: 5px; */
+    background-color: transparent;
+    border: 1px solid #06A3DA;
+    color: #06A3DA; 
+
+    /* transition: 0.4s; */
+}
+
+/* #navhead .register a:hover {
+    background-color: transparent;
+    border: 1px solid #06A3DA;
+    color: #06A3DA; */
+
+/* Header Ends here  */
+/* Main Section Start */
+/* Home Page Start ============================================= */
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('img/carousel-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .homepagelayout {
+    font-size: 50px;
+    color: white;
+}
+#home .homepagelayout p {
+    font-size: 25px;
+}
+
+#home .homepagelayout a {
+text-decoration: none;
+color: white;
+background-color: transparent;
+box-shadow: 2px 3px 5px #06A3DA;
+padding: 10px 20px;
+letter-spacing: 5px;
+font-size: 15px;
+border-radius: 10px;
+position: relative;
+z-index: 1;
+transition: 0.4s linear;
+
+}
+#home .homepagelayout a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+background-color: black;
+    transition: 0.4s linear;
+    border-radius: 10px;
+}
+
+#home .homepagelayout a:hover:before {
+width: 100%;
+z-index: -1;
+}
+
+.update_value {
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+position: absolute;
+top: 700px;
+gap: 20px;
+margin-left: 4%;
+
+}
+.update_value .box {
+    height: 150px;
+    width:450px;
+    background-color: #06A3DA;
+    border: 2px solid #06A3DA;
+}
+/* about */
+/* about us Start */
+#about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about .about-left h3 {
+    color: #06A3DA;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+#about .about-left {
+    margin: 100px 0px 100px 100px;
+}
+
+#about .about-right {
+    margin: 100px;
+}
+#about .about-left h1 {
+    font-size: 3em;
+}
+
+#about .about-left a {
+    text-decoration: none;
+    background-color:  #06A3DA;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#about .about-left a:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    z-index: -1;
+    border: 3px solid #06A3DA;
+}
+
+#about .about-left h1 span {
+    color: #06A3DA;
+}
+/* About us Ends */
+/* Team members start */
+#members{ 
+    width: 100%; 
+    height: 100vh; 
+ } 
+ #members .teamText{ 
+    display: block; 
+    justify-content: center; 
+    text-align: center; 
+    font-size: 30px; 
+ } 
+ #members .teambox{ 
+  display: flex; 
+  justify-content: space-evenly; 
+  gap: 1px; 
+ } 
+ #members .teambox .box{ 
+    width: 450px; 
+    height: 500px; 
+    background-color: #1b6671;
+    border: 1px solid black; 
+    text-align: center;
+ } 
+ #members .teambox .box .boxcontent{
+padding: 5%;
+font-size: 15px;
+letter-spacing: 3px;
+color: palegreen;
+} 
+
+/* About Section Ends Here */
+/* Services section */
+/* Our Services Start from here  */
+#ourservice{ 
+    width: 100%; 
+    height: 100vh; 
+ } 
+ ourservice .myheading{ 
+    text-align: center; 
+    font-size: 25px; 
+ } 
+ #box{ 
+    display: grid; 
+    grid-template-columns: auto auto auto auto; 
+    justify-content: center; 
+    gap: 50px; 
+  
+ } 
+ #box .content{ 
+    width: 300px; 
+    height: 250px; 
+    border: 1px solid black; 
+ } 
+  
