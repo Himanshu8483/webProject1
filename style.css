@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* font-family: sans-serif; */
+    font-family: 'Times New Roman', Times, serif
     box-sizing: border-box;
 }
 /* Top Bar Start from Here */
@@ -68,7 +68,7 @@
     height: 40px;
     width: 125px;
     border-radius: 20px;
-    padding-left: 10px; 
+    padding-left: 25px; 
     /* padding-top: 5px; */
     background-color: transparent;
     border: 1px solid #06A3DA;
@@ -141,7 +141,6 @@ z-index: -1;
 .update_value {
 display: flex;
 justify-content: center;
-text-align: center;
 align-items: center;
 position: absolute;
 top: 700px;
@@ -150,10 +149,20 @@ margin-left: 4%;
 
 }
 .update_value .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     height: 150px;
     width:450px;
+    font-size: 20px;
     background-color: #06A3DA;
-    border: 2px solid #06A3DA;
+    color: white;
+    letter-spacing: 2px;
+}
+.update_value .box p span{
+    font-size: 30px;
+    font-weight: 900;
 }
 /* about */
 /* about us Start */
@@ -246,20 +255,39 @@ color: palegreen;
     width: 100%; 
     height: 100vh; 
  } 
- ourservice .myheading{ 
+#ourservice .myheading{ 
     text-align: center; 
-    font-size: 25px; 
+    font-size: 25px;
  } 
- #box{ 
+ #box{  
     display: grid; 
-    grid-template-columns: auto auto auto auto; 
+    grid-template-columns: auto auto auto; 
     justify-content: center; 
     gap: 50px; 
   
  } 
  #box .content{ 
-    width: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px; 
     height: 250px; 
     border: 1px solid black; 
+    background-color: #EEF9FF;
  } 
-  
+ #box .content p {
+    margin: 10px;
+ }
+ #box .content p span {
+    font-size: 30px;
+    font-weight:900;
+ }
+ #box .content p i {
+border: 2px solid #06A3DA;
+padding: 20px;
+color: white;
+background-color: #06A3DA;
+ }
+ /* Our Services Ends Here  */
+  /* Testimonal Starts from here  */
