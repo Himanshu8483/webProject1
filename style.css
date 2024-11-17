@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 /* Top Bar Start from Here */
@@ -18,6 +18,19 @@
 #heading .text small {
     margin: 25px;
 }
+
+#heading .icon {
+    margin-left: 600px;
+}
+#heading .icon i{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 15px;
+    background-color: transparent;
+    color: white; 
+ }
+
 /* Top Bar Ends Here */
 /* Header Starts from Here */
 #navhead{
@@ -27,8 +40,8 @@
 #navhead .logo {
     color:  #06A3DA;
     font-size: 25px;
-    margin: 5px 40% 5px 50px;
-    letter-spacing: 2px;
+    margin: 15px 40% 5px 50px;
+    letter-spacing: 5px;
 }
 #navhead .navbar {
     display: flex;
@@ -68,7 +81,7 @@
     height: 40px;
     width: 125px;
     border-radius: 20px;
-    padding-left: 25px; 
+    padding-left: 10px; 
     /* padding-top: 5px; */
     background-color: transparent;
     border: 1px solid #06A3DA;
@@ -104,7 +117,8 @@
     color: white;
 }
 #home .homepagelayout p {
-    font-size: 25px;
+    font-size: 20px;
+    
 }
 
 #home .homepagelayout a {
@@ -142,6 +156,7 @@ z-index: -1;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 position: absolute;
 top: 700px;
 gap: 20px;
@@ -167,8 +182,9 @@ margin-left: 4%;
 /* about */
 /* about us Start */
 #about {
+    margin-top: 80px;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -227,7 +243,8 @@ margin-left: 4%;
     display: block; 
     justify-content: center; 
     text-align: center; 
-    font-size: 30px; 
+    font-size: 25px; 
+    font-weight: 600;
  } 
  #members .teambox{ 
   display: flex; 
@@ -238,7 +255,7 @@ margin-left: 4%;
     width: 450px; 
     height: 500px; 
     background-color: #1b6671;
-    border: 1px solid black; 
+    border: 1px solid #1b6671; 
     text-align: center;
  } 
  #members .teambox .box .boxcontent{
@@ -273,7 +290,7 @@ color: palegreen;
     text-align: center;
     width: 350px; 
     height: 250px; 
-    border: 1px solid black; 
+    border: 1px solid #1b6671; 
     background-color: #EEF9FF;
  } 
  #box .content p {
@@ -281,7 +298,7 @@ color: palegreen;
  }
  #box .content p span {
     font-size: 30px;
-    font-weight:900;
+    font-weight:600;
  }
  #box .content p i {
 border: 2px solid #06A3DA;
@@ -290,4 +307,170 @@ color: white;
 background-color: #06A3DA;
  }
  /* Our Services Ends Here  */
-  /* Testimonal Starts from here  */
+
+ /* features start from here  */
+ #main{ 
+    margin-top: 50px;
+    width: 100%; 
+    height: 100vh; 
+ } 
+#main #mainhead{ 
+    text-align: center; 
+    font-size: 25px;
+ } 
+ #mainbox{  
+    display: grid; 
+    /* grid-template-columns: auto auto;  */
+    display: flex;
+    justify-content: center; 
+ } 
+
+ #mainbox .maincontent{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px 0 100px;
+ }
+ #mainbox .maincontent p span {
+    font-size: 25px;
+    font-weight:550;
+ }
+ #mainbox .maincontent p i {
+border: 2px solid #06A3DA;
+padding: 20px;
+color: white;
+background-color: #06A3DA;
+ }
+#mainbox .mainimg {
+    position: relative;
+    /* right: 500px; */
+    /* top: 50px; */
+}
+
+/* latest blog section start from here  */
+#blog{ 
+    width: 100%; 
+    height: 100vh; 
+    margin-top: 150px;
+ } 
+ #blog .teamhead{ 
+    display: block; 
+    justify-content: center; 
+    text-align: center; 
+    font-size: 25px; 
+    font-weight: 600;
+ } 
+ #blog .teambox{ 
+  display: flex; 
+  justify-content: space-evenly; 
+  margin-top: 50px;
+  /* gap: 50px;  */
+ } 
+ #blog .teambox .box{ 
+    width: 400px; 
+    height: 450px; 
+    background-color: #EEF9FF;
+    border: 1px solid #1b6671; 
+    text-align: center;
+ } 
+ #blog .teambox .box .boxcontent{
+padding: 2%;
+/* margin: 5%; */
+font-size: 15px;
+border-bottom: 1px solid #1b6671;
+border-top: 1px solid #1b6671;
+letter-spacing: 2px;
+color: #0c2c20;
+} 
+#blog .teambox .box .boxcontent a{
+    text-decoration: none;
+    color: #1b6671;
+    font-weight: 550;
+}
+
+/* Footer Part */
+
+footer {
+    margin-top: 150px;
+}
+.foot-panel0 {
+    border-bottom: 2px solid #06A3DA;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #1b6671;
+}
+.foot-panel0 a i{
+    color: white;
+}
+.foot-panel {
+    background-color: #0c2c20;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:  #06A3DA;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.foot-panel ul a {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel1 {
+    border-top: 2px solid #06A3DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b6671;
+    color: white;
+    height: 80px;
+}
+.copyright {
+    padding-top: 5px;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+form {
+    background-color: transparent;
+    border-radius: 60px;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    border: 2px solid tomato;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    font-size:medium;
+    color: white;
+}
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color:white;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+form button {
+    background-color: tomato;
+    padding: 10px 50px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+form .fa-magnifying-glass {
+    align-self: center;
+    padding: 10px 20px;
+    color: tomato;
+}
