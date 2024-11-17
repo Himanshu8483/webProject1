@@ -243,7 +243,7 @@ margin-left: 4%;
     display: block; 
     justify-content: center; 
     text-align: center; 
-    font-size: 25px; 
+    font-size: 30px; 
     font-weight: 600;
  } 
  #members .teambox{ 
@@ -387,7 +387,7 @@ color: #0c2c20;
     color: #1b6671;
     font-weight: 550;
 }
-
+/* latest blog ends here  */
 /* Footer Part */
 
 footer {
@@ -449,6 +449,7 @@ form {
     margin-left: 60px;
     font-size:medium;
     color: white;
+    box-shadow: 2px 3px 5px #1b6671;
 }
 form input {
     flex: 1;
