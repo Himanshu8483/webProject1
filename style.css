@@ -61,18 +61,6 @@ a.active, a:hover  {
     border-top: 2px solid green;
     font-size: large;
 }
-/* #navhead .navbar a:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    border-top: 2px solid aqua;
-    transition: 0.4s linear;
-}
-#navhead .navbar a:hover:before {
-    width: 100%;
-} */
 
 #navhead .register {
     display: flex;
@@ -88,19 +76,10 @@ a.active, a:hover  {
     width: 125px;
     border-radius: 20px;
     padding-left: 10px; 
-    /* padding-top: 5px; */
     background-color: transparent;
     border: 1px solid #06A3DA;
     color: #06A3DA; 
-
-    /* transition: 0.4s; */
 }
-
-/* #navhead .register a:hover {
-    background-color: transparent;
-    border: 1px solid #06A3DA;
-    color: #06A3DA; */
-
 /* Header Ends here  */
 /* Main Section Start */
 /* Home Page Start ============================================= */
@@ -329,7 +308,6 @@ background-color: #06A3DA;
  } 
  #mainbox{  
     display: grid; 
-    /* grid-template-columns: auto auto;  */
     display: flex;
     justify-content: center; 
  } 
@@ -349,9 +327,6 @@ border: 2px solid #06A3DA;
 padding: 20px;
 color: white;
 background-color: #06A3DA;
-
-    /* right: 500px; */
-    /* top: 50px; */
 }
 
 /* latest blog section start from here  */
@@ -371,7 +346,6 @@ background-color: #06A3DA;
   display: flex; 
   justify-content: space-evenly; 
   margin-top: 50px;
-  /* gap: 50px;  */
  } 
  #blog .teambox .box{ 
     width: 400px; 
@@ -382,10 +356,7 @@ background-color: #06A3DA;
  } 
  #blog .teambox .box .boxcontent{
 padding: 2%;
-/* margin: 5%; */
 font-size: 15px;
-/* border-bottom: 1px solid #1b6671;
-border-top: 1px solid #1b6671; */
 letter-spacing: 2px;
 color: #0c2c20;
 } 
