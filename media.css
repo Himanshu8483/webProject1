@@ -1,1 +1,236 @@
+@media (min-width:200px) and (max-width:1100px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+#heading {
+    display: none;
+}
+
+#navhead {
+flex-direction: column;
+}
+#navhead .navbar .none {
+    display: none;
+}
+
+ #navhead .register {
+    display: none;
+}
+/* search bar  */
+form {
+    margin-top: 80px;
+    width: 300px;
+    height: 45px;
+
+}
+form input {
+    font-size: 15px;
+}
+form button {
+    padding: 0px 0px;
+
+}
+
+.update_value {
+    display: none;
+}
+/* about section  */
+#about {
+    flex-direction: column;  
+}
+#about .about-left {
+    margin: 0px 10px 00px 10px;
+;}
+#about .about-right {
+    display: none;
+    }
+        #main{ 
+            margin-top: 1300px;
+            width: 100%; 
+            height: 100vh; 
+         } 
+         #members {
+            padding: 5px;
+         }
+         #members .teambox{ 
+            display: flex; 
+            justify-content: space-evenly; 
+            gap: 1px; 
+           } 
+           #members .teambox .box{ 
+              width: 40px; 
+              height: 500px; 
+              background-color: #1b6671;
+              border: 1px solid #1b6671; 
+              text-align: center;
+           } 
+         #mainbox {
+            flex-direction: column;
+        }
+        #mainbox .mainimg {
+            display: flex;
+            justify-content: center;
+        }
+            #blog{ 
+                height: fit-content;
+                #blog .teambox .box {
+                    flex-direction: column;
+                }
+                 #blog .teambox .box{ 
+                    width: 400px; 
+                    height: 450px; 
+                    background-color: #EEF9FF;
+                    border: 1px solid #1b6671; 
+                    text-align: center;
+                 } 
+
+
+        }
+        .boxcontent p{
+            display: none;
+        }
+        .boxcontent h2 {
+            font-size: 17px;
+        }
+
+        #members{ 
+            margin-top: 100px;
+            height: auto;
+         } 
+         #members .teambox {
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+         }
+         #members .teambox .box{ 
+            width: 300px; 
+            height: 400px; 
+            background-color: #1b6671;
+            border: 1px solid #1b6671; 
+            text-align: center;
+         } 
+
+           /* our services start from here  */ 
+           #ourservice {
+            height: auto;
+           }
+            #ourservice .myheading{ 
+                padding: 10px;
+     } 
+
+                #box{  
+                    display: grid; 
+                    grid-template-columns: auto; 
+                    justify-content: center; 
+                } 
+          #main {
+            height: auto;
+            margin-top: 100px;
+          }
+          #main #mainhead {
+            padding: 10px;
+          }
+          #main #mainhead .mainimg  img{
+            height: 50px;
+            width: 50px;
+          }
+        footer {
+            margin-top: 20px;
+            max-width: 100%;
+            height:fit-content;
+            flex-direction: column;
+            background-color:#0c2c20;
+        }
+        .foot-panel {
+            padding-top: 50px;
+            height:max-content;
+            flex-direction: column;
+        }
+        .foot-panel ul form {
+            display: none;
+        }
+
+
+        .foot-panel0 {
+
+            border-bottom: 2px solid #06A3DA;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding: 10px;
+            background-color: #1b6671;
+        }
+        .foot-panel0 a i{
+            color: white;
+        }
+        .foot-panel {
+            background-color: #0c2c20;
+            height: 450px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            color:  #06A3DA;
+            font-size: 25px;
+            letter-spacing: 3px;
+        }
+        .foot-panel ul a {
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            margin-top: 10px;
+            color: #dddddd;
+        }
+        
+        .foot-panel1 {
+            border-top: 2px solid #06A3DA;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1b6671;
+            color: white;
+            height: 80px;
+            margin-top: 100px;
+            padding: 10px;
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* @media (min-width:600px) and (max-width:1000px){ */
 
